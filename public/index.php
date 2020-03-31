@@ -215,7 +215,7 @@ $anggota = json_decode(file_get_contents(__DIR__."/../anggota.json"));
                         </div>
                         <div class="form-group">
                             <label for="inputEmail4"><input type="checkbox" value="true" checked id="dec_point" name="enable_decimal_point"> Masukan jumlah digit dibelakang koma</label>
-                                <input type="number" class="form-control" name="decimal_point" placeholder="nilai awal" value="10" id="decimal_point">
+                                <input type="number" class="form-control" name="decimal_point" placeholder="jumlah digit dibelakang coma" value="10" id="decimal_point">
                         </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-lg btn-block btn-primary">Run!</button>
