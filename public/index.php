@@ -259,6 +259,9 @@ $anggota = json_decode(file_get_contents(__DIR__."/../anggota.json"));
                         \( \left|(x_{r+1} - x_r) \over x_{r+1} \right| < \delta \)
 
                         </p>
+                        <p class="justify">
+                        <b>Note : untuk Fungsi g(x) masukan syntax math. example : [sqrt,pow..etc]
+                        </p>
                 </div>
             </div>
         </div>
