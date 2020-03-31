@@ -214,7 +214,7 @@ $anggota = json_decode(file_get_contents(__DIR__."/../anggota.json"));
                                 <input type="number" class="form-control" name="nilai_awal" placeholder="nilai awal" value="4">
                         </div>
                         <div class="form-group">
-                            <label for="inputEmail4"><input type="checkbox" value="true" checked id="dec_point" name="enable_decimal_point"> Decimal Point</label>
+                            <label for="inputEmail4"><input type="checkbox" value="true" checked id="dec_point" name="enable_decimal_point"> Masukan jumlah digit dibelakang koma yang akan ditampilkan</label>
                                 <input type="number" class="form-control" name="decimal_point" placeholder="nilai awal" value="10" id="decimal_point">
                         </div>
                         <div class="form-group">
