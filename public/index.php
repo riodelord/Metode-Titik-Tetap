@@ -218,7 +218,7 @@ $anggota = json_decode(file_get_contents(__DIR__."/../anggota.json"));
                                 <input type="number" class="form-control" name="decimal_point" placeholder="nilai awal" value="10" id="decimal_point">
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-lg btn-block btn-primary">Find X</button>
+                            <button type="submit" class="btn btn-lg btn-block btn-primary">Run!</button>
                         </div>
                     </form>
                 </div>
