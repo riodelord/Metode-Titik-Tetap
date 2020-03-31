@@ -184,7 +184,7 @@ $anggota = json_decode(file_get_contents(__DIR__."/../anggota.json"));
 <div class="jumbotron jumbotron-fluid banner text-center text-white">
   <div class="container">
     <h1 class="display-4 bg-dark block text-nice">
-     Metode <i class="fa fa-calculator"></i> Numerik</h1>
+     Komputasi <i class="fa fa-calculator"></i> Numerik</h1>
     <p class="lead bg-dark block">METODE ITERASI TITIK TETAP</p>
   </div>
 </div>
