@@ -1,0 +1,133 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e35b97fbc2fa973f75d4fd4c340f30fe",
+    "packages": [
+        {
+            "name": "chriskonnertz/string-calc",
+            "version": "v1.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chriskonnertz/string-calc.git",
+                "reference": "35a97ee3d5ba261c152b78a88a43d3815528b76f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chriskonnertz/string-calc/zipball/35a97ee3d5ba261c152b78a88a43d3815528b76f",
+                "reference": "35a97ee3d5ba261c152b78a88a43d3815528b76f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ChrisKonnertz\\StringCalc": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Konnertz"
+                }
+            ],
+            "description": "StringCalc is a PHP calculator library for mathematical terms (expressions) passed as strings.",
+            "keywords": [
+                "calculation",
+                "expression",
+                "math",
+                "parser",
+                "string calc",
+                "string-calc",
+                "stringcalc",
+                "term"
+            ],
+            "time": "2018-04-05T20:25:15+00:00"
+        },
+        {
+            "name": "markrogoyski/math-php",
+            "version": "v0.46.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/markrogoyski/math-php.git",
+                "reference": "51ed82d7272d0ca97a59b189ba6766e1af409bf9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/markrogoyski/math-php/zipball/51ed82d7272d0ca97a59b189ba6766e1af409bf9",
+                "reference": "51ed82d7272d0ca97a59b189ba6766e1af409bf9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phploc/phploc": "*",
+                "phpmd/phpmd": "^2.6",
+                "phpstan/phpstan": "*",
+                "phpunit/phpunit": "6.*",
+                "satooshi/php-coveralls": "^2.0",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MathPHP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Nowaczyk",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Jakob Sandberg",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Mark Rogoyski",
+                    "email": "mark@rogoyski.com",
+                    "homepage": "https://github.com/markrogoyski",
+                    "role": "Lead developer"
+                }
+            ],
+            "description": "Math Library for PHP. Features descriptive statistics and regressions; Continuous and discrete probability distributions; Linear algebra with matrices and vectors, Numerical analysis; special mathematical functions; Algebra",
+            "homepage": "https://github.com/markrogoyski/math-php/",
+            "keywords": [
+                "algebra",
+                "combinatorics",
+                "distributions",
+                "linear algebra",
+                "math",
+                "mathematics",
+                "matrix",
+                "numerical analysis",
+                "probability",
+                "regressions",
+                "statistics"
+            ],
+            "time": "2018-10-28T22:09:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-mbstring": "*"
+    },
+    "platform-dev": []
+}
