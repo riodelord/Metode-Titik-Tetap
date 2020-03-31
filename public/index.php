@@ -178,14 +178,14 @@ $anggota = json_decode(file_get_contents(__DIR__."/../anggota.json"));
     <SCRIPT>MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}})</SCRIPT>
 <nav class="navbar navbar-dark bg-dark sticky-top">
   <a class="navbar-brand" href="#">
-        <i class="fa fa-calculator"></i> Fixed Point Iteration Method
+        <i class="fa fa-calculator"></i> METODE ITERASI TITIK TETAP
   </a>
 </nav>
 <div class="jumbotron jumbotron-fluid banner text-center text-white">
   <div class="container">
     <h1 class="display-4 bg-dark block text-nice">
      Metode <i class="fa fa-calculator"></i> Numerik</h1>
-    <p class="lead bg-dark block">Metode Iterasi Fixed Point</p>
+    <p class="lead bg-dark block">METODE ITERASI TITIK TETAP</p>
   </div>
 </div>
 
